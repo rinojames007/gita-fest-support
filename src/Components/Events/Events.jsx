@@ -23,7 +23,7 @@ const Events = () => {
         >
           <EventCard
             name="Ahwan"
-            desc = "Click to Register"
+            desc = "Click to Manage"
             url={"https://i.postimg.cc/VNyszV4H/sports.webp"}
           />
         </Link>
@@ -34,7 +34,7 @@ const Events = () => {
         >
           <EventCard
             name="Anwesh"
-            desc = "Click to Register"
+            desc = "Click to Manage"
             url={"https://i.postimg.cc/yYd8j9kn/tech.webp"}
           />
         </Link>
@@ -45,7 +45,7 @@ const Events = () => {
         >
           <EventCard
             name="Akanksha"
-            desc = "Click to Register"
+            desc = "Click to Manage"
             url={"https://i.postimg.cc/QMp8CJyN/logo.webp"}
           />
         </Link>

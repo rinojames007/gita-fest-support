@@ -68,24 +68,8 @@ export default function Landing() {
       <Navbar />
       <Hero />
       <Events />
-      <EventUpdates />
-      <Highlights />
+      
       <Footer />
-
-      {/* WhatsApp Button */}
-      {/* <div className={showPopup ? "whatsapp-popup active" : "whatsapp-popup"}>
-        Join our WhatsApp Channel!
-      </div>
-      <div
-        className="whatsapp-button"
-        onClick={openWhatsApp}
-      >
-        <img
-          src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/WhatsApp.svg/598px-WhatsApp.svg.png"
-          alt="WhatsApp Icon"
-          width="30"
-        />
-      </div> */}
     </div>
   );
 }

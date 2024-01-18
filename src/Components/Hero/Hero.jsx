@@ -56,7 +56,7 @@ const Hero = () => {
               Akanksha 2024!
             </span>
           </div>
-          <span id="shadowText" className="text-4xl sm:text-8xl mt-4 font-bold text-white ">
+          <span id="shadowText" className="text-4xl sm:text-6xl mt-4 font-bold text-white ">
               Support Team
             </span>
 

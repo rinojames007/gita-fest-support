@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars, faXmark , faHouse, faIdBadge, faCalendarDays, faImages, faAward} from "@fortawesome/free-solid-svg-icons";
-import { faInstagram, faSquareInstagram } from "@fortawesome/free-brands-svg-icons";
+
 
 
 
@@ -39,23 +39,7 @@ const Navbar = () => {
             <Link to="/coordinators">Coordinators</Link>
           </li>
 
-          <li className="hover:underline text-white  hover:shadow-purple-800 hover:shadow-lg  hover:cursor-pointer">
-            <Link to="/gallery">Gallery</Link>
-          </li>
-
-          <li className="hover:underline text-white  hover:shadow-purple-800 hover:shadow-lg  hover:cursor-pointer">
-            <Link to="/fest/CreditsPage">Credits</Link>
-          </li>
-
-          <li className="hover:underline text-white hover:shadow-purple-800 hover:shadow-lg  hover:cursor-pointer">
-            <a
-              href="https://www.instagram.com/akanksha_gita?igsh=ODA1NTc5OTg5Nw=="
-              target="_blank"
-              className="flex justify-center items-center"
-            >
-              <FontAwesomeIcon icon={faInstagram} className="px-1" /> Follow us
-            </a>
-          </li>
+          
         </ul>
       </div>
 
@@ -109,34 +93,7 @@ const Navbar = () => {
               Coordinators
             </Link>
           </li>
-          <li>
-            <Link
-              className="hover:text-gray-400 active:underline py-1"
-              to="/gallery"
-              onClick={toggleMobileMenu}
-            >
-              <FontAwesomeIcon icon={faImages} className="px-1" />
-              Gallery
-            </Link>
-          </li>
-          <li>
-            <Link
-              className="hover:text-gray-400 active:underline py-1"
-              to="/fest/CreditsPage"
-              onClick={toggleMobileMenu}
-            >
-              <FontAwesomeIcon icon={faAward} className="px-1" />
-              Credits
-            </Link>
-          </li>
-          <li onClick={toggleMobileMenu}>
-            <a
-              href="https://www.instagram.com/akanksha_gita?igsh=ODA1NTc5OTg5Nw=="
-              target="_blank"
-            >
-              <FontAwesomeIcon icon={faSquareInstagram} className="px-1" /> Follow us
-            </a>
-          </li>
+          
         </ul>
       </div>
     </nav>
